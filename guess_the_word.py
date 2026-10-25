@@ -39,6 +39,8 @@ def display_word(word, guessed_letters):
 def play_game():
     word = select_word()
     guessed_letters = set()
+
+    # The player gets six incorrect attempts.
     attempts_left = 6
 
     print("Welcome to Guess the Word!")
